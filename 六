@@ -1,0 +1,30 @@
+a= int(input("請輸入數字："))
+b= int(input("請輸入數字："))
+c= int(input("請輸入數字："))
+
+if a < b and a < c:
+    print("最小值為："+str(a))
+
+if b < c and b < a:
+    print("最小值為："+str(b))
+
+if c < b and c < a:
+    print("最小值為："+str(c))
+
+if a < c and a == b:
+    print("a和b一樣小")
+
+if a < b and a == c:
+    print("a和c一樣小")
+
+if b < a and b == c:
+    print("b和c一樣小")
+
+if a==b and b==c:
+    print("三數相等")
+
+
+    
+
+    
+    

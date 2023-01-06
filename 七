@@ -1,0 +1,10 @@
+while True:
+  try:
+    輸入= int(input("請輸入數字："))
+    if 輸入>31:
+      print("輸入值不能超過31")
+    else:
+      結果=2**輸入
+      print(結果)
+  except (EOFError):
+    break
